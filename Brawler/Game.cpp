@@ -65,7 +65,7 @@ void Game::update(sf::Time deltaTime)
 			sf::Event currentEvent;
 			while (_mainWindow.pollEvent(currentEvent))
 			{
-				_mainWindow.clear(sf::Color(255, 0, 0));
+				_mainWindow.clear(sf::Color(255, 255, 0));
 				_mainWindow.display();
 								
 				switch (currentEvent.type)
